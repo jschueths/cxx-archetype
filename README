@@ -1,0 +1,16 @@
+To build:
+cd build
+cmake ..
+make
+make test
+
+Development on a Debian system:
+apt-get install libunittest++-dev
+apt-get install libboost-all-dev
+
+Development on a RPM system:
+yum install unittest-cpp-devel
+yum install boost-devel
+
+Development on Windows:
+
